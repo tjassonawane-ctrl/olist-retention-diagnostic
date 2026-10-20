@@ -133,5 +133,4 @@ with tab4:
     m1.metric("Target customers", f"{n_hv:,}")
     m2.metric("Extra revenue", f"R$ {uplift:,.0f}")
     m3.metric("As % of current revenue", f"{uplift/total_rev*100:.1f}%")
-    st.caption("Illustrative scenario, not a forecast. Assumes converted customers place one extra "
-               "order at the chosen value. Target group = new
+    st.caption("Illustrative scenario, not a forecast. Target group = new + lapsed high-value one-time buyers; each converted customer places one extra order at the chosen value.")
